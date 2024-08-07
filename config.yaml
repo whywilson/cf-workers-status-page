@@ -25,7 +25,7 @@ monitors:
 
   - id: renhotecev
     name: Renhotec EV
-    url: 'https://www.renhotecev.com'
+    url: 'https://www.renhotecev.com/'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
