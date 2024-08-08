@@ -17,7 +17,7 @@ settings:
 monitors:
   - id: renhotec
     name: Renhotec
-    url: 'https://www.renhotec.com/' # URL to fetch
+    url: 'https://www.renhotec.com/'
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
@@ -43,7 +43,7 @@ monitors:
     expectStatus: 200
 
   - id: renhotec-industrial
-    name: Renhotec RF
+    name: Renhotec Industrial
     url: 'https://renhotec-industrial.com/'
     method: GET
     expectStatus: 200
